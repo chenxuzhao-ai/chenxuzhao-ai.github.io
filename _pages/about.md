@@ -26,4 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a fourth year phd student from Iowa State University. My research focuses on advancing trustworthy and human-aligned AI to ensure reliability and privacy in real-world deployments. I study attack/defense mechanisms, adversarial robustness, machine unlearning, and uncertainty quantification. Recently, I have extended these themes to LLM agents, examining the safety risks and trustworthiness of models operating within autonomous workflows. I am also dedicated to developing benchmarks to facilitate progress and standardization in these research areas.
+Hi! I am a fourth-year Ph.D. student in the Department of Computer Science at [Iowa State University](https://www.iastate.edu/), advised by [Dr. Mengdi Huai](https://mdhuai.github.io/). I received my bachelor’s degree in Statistics from the School of Data Science at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), in 2022.
+
+My research focuses on advancing trustworthy and human-aligned AI to ensure reliability and privacy in real-world deployments. I study attack/defense mechanisms, adversarial robustness, machine unlearning, and uncertainty quantification. Recently, I have extended these themes to LLM agents, examining the safety risks and trustworthiness of models operating within autonomous workflows. I am also dedicated to developing benchmarks to facilitate progress and standardization in these research areas.
