@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Iowa State University</a>. 515-676-7789. cxzhao@iastate.edu.
+subtitle: 515-676-7789. cxzhao@iastate.edu.
 
 profile:
   align: right
