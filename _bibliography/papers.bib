@@ -10,6 +10,7 @@ year={2026},
 url={https://openreview.net/forum?id=lk3j87oquF},
 bibtex_show = {true},
 abbr = {LUSB},
+pdf = {https://openreview.net/pdf?id=lk3j87oquF},
 abstract          = {In recent years, large language models (LLMs) have achieved remarkable advancements. However, LLMs can inadvertently memorize sensitive or copyrighted content, raising privacy and legal concerns. Due to the high cost of retraining from scratch, recent research has introduced a series of promising machine unlearning techniques, namely LLM unlearning, to selectively remove specific content from LLMs. Yet, as a new paradigm, LLM unlearning may introduce critical security vulnerabilities by exposing additional interaction surfaces that adversaries can exploit, leading to emerging security threats against LLMs. Existing literature lacks a systematic understanding and comprehensive evaluation of unlearning attacks and their defenses in the context of LLMs. To bridge this gap, we introduce Language Unlearning Security Benchmark (LUSB), the first comprehensive framework designed to formalize, evaluate, and benchmark unlearning attacks and defenses against LLMs. Based on LUSB, we benchmark 16 different types of unlearning attack/defense methods across 13 LLM architectures, 9 LLM unlearning methods, and 12 task datasets. Our benchmark results reveal that unlearning attacks significantly undermine the security performance of LLMs, even in the presence of traditional LLM security defenses. Notably, unlearning attacks can not only amplify adversarial vulnerabilities of LLMs (e.g., increased susceptibility to jailbreak attacks) but also be exploited to gradually activate traditional poisoning or backdoor behaviors in LLMs. Further, our results underscore the limited effectiveness of existing defense strategies, emphasizing the urgent need for more advanced approaches to LLM unlearning security. We provide our benchmark in the supplementary material to facilitate further research in this area.},
 html      = {https://openreview.net/forum?id=lk3j87oquF}
 }
@@ -22,6 +23,7 @@ html      = {https://openreview.net/forum?id=lk3j87oquF}
   year={2025},
   bibtex_show = {true},
   abbr = {PrivUB},
+  pdf = {https://arxiv.org/pdf/2512.18035},
   abstract          = {The rapid advancements in artificial intelligence (AI) have primarily focused on the process of learning from data to acquire knowledgeable learning systems. As these systems are increasingly deployed in critical areas, ensuring their privacy and alignment with human values is paramount. Recently, selective forgetting (also known as machine unlearning) has shown promise for privacy and data removal tasks, and has emerged as a transformative paradigm shift in the field of AI. It refers to the ability of a model to selectively erase the influence of previously seen data, which is especially important for compliance with modern data protection regulations and for aligning models with human values. Despite its promise, selective forgetting raises significant privacy concerns, especially when the data involved come from sensitive domains. While new unlearning-induced privacy attacks are continuously proposed, each is shown to outperform its predecessors using different experimental settings, which can lead to overly optimistic and potentially unfair assessments that may disproportionately favor one particular attack over the others. In this work, we present the first comprehensive benchmark for evaluating privacy vulnerabilities in selective forgetting. We extensively investigate privacy vulnerabilities of machine unlearning techniques and benchmark privacy leakage across a wide range of victim data, state-of-the-art unlearning privacy attacks, unlearning methods, and model architectures. We systematically evaluate and identify critical factors related to unlearning-induced privacy leakage. With our novel insights, we aim to provide a standardized tool for practitioners seeking to deploy customized unlearning applications with faithful privacy assessments.},
   html      = {https://arxiv.org/abs/2512.18035}
 }
@@ -34,6 +36,7 @@ html      = {https://openreview.net/forum?id=lk3j87oquF}
   year={2025},
   bibtex_show = {true},
   abbr = {Uncertainty Robustness},
+  pdf = {https://dl.acm.org/doi/pdf/10.1145/3746252.3760964},
   abstract          = {Currently, various uncertainty quantification methods have been proposed to provide certainty and probability estimates for deep learning models' label predictions. Meanwhile, with the growing demand for the right to be forgotten, machine unlearning has been extensively studied as a means to remove the impact of requested sensitive data from a pre-trained model without retraining the model from scratch. However, the vulnerabilities of such generated predictive uncertainties with regard to dedicated malicious unlearning attacks remain unexplored. To bridge this gap, for the first time, we propose a new class of malicious unlearning attacks against predictive uncertainties, where the adversary aims to cause the desired manipulations of specific predictive uncertainty results. We also design novel optimization frameworks for our attacks and conduct extensive experiments, including black-box scenarios. Notably, our extensive experiments show that our attacks are more effective in manipulating predictive uncertainties than traditional attacks that focus on label misclassifications, and existing defenses against conventional attacks are ineffective against our attacks.},
   html      = {https://dl.acm.org/doi/10.1145/3746252.3760964}
 }
@@ -104,18 +107,25 @@ html      = {https://openreview.net/forum?id=lk3j87oquF}
 
 
 
-@article{wang2024bridging,
-  title={Bridging model heterogeneity in federated learning via uncertainty-based asymmetrical reciprocity learning},
-  author={Wang, Jiaqi and Zhao, Chenxu and Lyu, Lingjuan and You, Quanzeng and Huai, Mengdi and Ma, Fenglong},
-  journal={Proceedings of machine learning research},
-  volume={235},
-  pages={52290},
-  year={2024},
+@InProceedings{pmlr-v235-wang24cs,
+  title = 	 {Bridging Model Heterogeneity in Federated Learning via Uncertainty-based Asymmetrical Reciprocity Learning},
+  author =       {Wang, Jiaqi and Zhao, Chenxu and Lyu, Lingjuan and You, Quanzeng and Huai, Mengdi and Ma, Fenglong},
+  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+  pages = 	 {52290--52308},
+  year = 	 {2024},
+  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = 	 {235},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--27 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/wang24cs/wang24cs.pdf},
+  url = 	 {https://proceedings.mlr.press/v235/wang24cs.html},
   bibtex_show = {true},
   abbr = {FedType},
-  abstract          = {This paper presents FedType, a simple yet pioneering framework designed to fill research gaps in heterogeneous model aggregation within federated learning (FL). FedType introduces small identical proxy models for clients, serving as agents for information exchange, ensuring model security, and achieving efficient communication simultaneously. To transfer knowledge between large private and small proxy models on clients, we propose a novel uncertainty-based asymmetrical reciprocity learning method, eliminating the need for any public data. Comprehensive experiments conducted on benchmark datasets demonstrate the efficacy and generalization ability of FedType across diverse settings. Our approach redefines federated learning paradigms by bridging model heterogeneity, eliminating reliance on public data, prioritizing client privacy, and reducing communication costs (The codes are available in the supplementation materials).},
-  html      = {https://proceedings.mlr.press/v235/wang24cs.html}
+  html      = {https://proceedings.mlr.press/v235/wang24cs.html},
+  abstract = 	 {This paper presents FedType, a simple yet pioneering framework designed to fill research gaps in heterogeneous model aggregation within federated learning (FL). FedType introduces small identical proxy models for clients, serving as agents for information exchange, ensuring model security, and achieving efficient communication simultaneously. To transfer knowledge between large private and small proxy models on clients, we propose a novel uncertainty-based asymmetrical reciprocity learning method, eliminating the need for any public data. Comprehensive experiments conducted on benchmark datasets demonstrate the efficacy and generalization ability of FedType across diverse settings. Our approach redefines federated learning paradigms by bridging model heterogeneity, eliminating reliance on public data, prioritizing client privacy, and reducing communication costs (The codes are available in the supplementation materials).}
 }
+
 
 @article{qian2024exploring,
   title={Exploring fairness in educational data mining in the context of the right to be forgotten},
@@ -124,6 +134,7 @@ html      = {https://openreview.net/forum?id=lk3j87oquF}
   year={2024},
   bibtex_show = {true},
   abbr = {Fairness},
+  pdf = {https://arxiv.org/pdf/2405.16798},
   abstract          = {In education data mining (EDM) communities, machine learning has achieved remarkable success in discovering patterns and structures to tackle educational challenges. Notably, fairness and algorithmic bias have gained attention in learning analytics of EDM. With the increasing demand for the right to be forgotten, there is a growing need for machine learning models to forget sensitive data and its impact, particularly within the realm of EDM. The paradigm of selective forgetting, also known as machine unlearning, has been extensively studied to address this need by eliminating the influence of specific data from a pre-trained model without complete retraining. However, existing research assumes that interactive data removal operations are conducted in secure and reliable environments, neglecting potential malicious unlearning requests to undermine the fairness of machine learning systems. In this paper, we introduce a novel class of selective forgetting attacks designed to compromise the fairness of learning models while maintaining their predictive accuracy, thereby preventing the model owner from detecting the degradation in model performance. Additionally, we propose an innovative optimization framework for selective forgetting attacks, capable of generating malicious unlearning requests across various attack scenarios. We validate the effectiveness of our proposed selective forgetting attacks on fairness through extensive experiments using diverse EDM datasets.},
   html      = {https://arxiv.org/abs/2405.16798}
 }
@@ -137,6 +148,7 @@ html      = {https://openreview.net/forum?id=lk3j87oquF}
   pages={23712--23713},
   year={2024},
   bibtex_show = {true},
+  pdf = {https://arxiv.org/pdf/2310.10708},
   abbr = {Neuron Explanation},
   abstract          = {Interpreting deep neural networks through examining neurons offers distinct advantages when it comes to exploring the inner workings of Deep Neural Networks. Previous research has indicated that specific neurons within deep vision networks possess semantic meaning and play pivotal roles in model performance. Nonetheless, the current methods for generating neuron semantics heavily rely on human intervention, which hampers their scalability and applicability. To address this limitation, this paper proposes a novel post-hoc framework for generating semantic explanations of neurons with large foundation models, without requiring human intervention or prior knowledge. Experiments are conducted with both qualitative and quantitative analysis to verify the effectiveness of our proposed approach.},
   html      = {https://arxiv.org/abs/2310.10708}
@@ -153,6 +165,7 @@ html      = {https://openreview.net/forum?id=lk3j87oquF}
   year={2024},
   bibtex_show = {true},
   abbr = {unSENN},
+  pdf = {https://arxiv.org/pdf/2401.01549},
   abstract          = {Despite the recent progress in deep neural networks (DNNs), it remains challenging to explain the predictions made by DNNs. Existing explanation methods for DNNs mainly focus on post-hoc explanations where another explanatory model is employed to provide explanations. The fact that post-hoc methods can fail to reveal the actual original reasoning process of DNNs raises the need to build DNNs with built-in interpretability. Motivated by this, many self-explaining neural networks have been proposed to generate not only accurate predictions but also clear and intuitive insights into why a particular decision was made. However, existing self-explaining networks are limited in providing distribution-free uncertainty quantification for the two simultaneously generated prediction outcomes (i.e., a sample's final prediction and its corresponding explanations for interpreting that prediction). Importantly, they also fail to establish a connection between the confidence values assigned to the generated explanations in the interpretation layer and those allocated to the final predictions in the ultimate prediction layer. To tackle the aforementioned challenges, in this paper, we design a novel uncertainty modeling framework for self-explaining networks, which not only demonstrates strong distribution-free uncertainty modeling performance for the generated explanations in the interpretation layer but also excels in producing efficient and effective prediction sets for the final predictions based on the informative high-level basis explanations. We perform the theoretical analysis for the proposed framework. Extensive experimental evaluation demonstrates the effectiveness of the proposed uncertainty framework.},
   html      = {https://ojs.aaai.org/index.php/AAAI/article/view/29382}
 }
@@ -167,6 +180,7 @@ html      = {https://openreview.net/forum?id=lk3j87oquF}
   year={2023},
   bibtex_show = {true},
   abbr = {Unlearning Attack},
+  pdf = {https://proceedings.neurips.cc/paper_files/paper/2023/file/ed4bacc8c7ca1ee0e1d4e0ef376b7ac7-Paper-Conference.pdf},
   abstract          = {With the growing demand for the right to be forgotten, there is an increasing need for machine learning models to forget sensitive data and its impact. To address this, the paradigm of selective forgetting (a.k.a machine unlearning) has been extensively studied, which aims to remove the impact of requested data from a well-trained model without retraining from scratch. Despite its significant success, limited attention has been given to the security vulnerabilities of the unlearning system concerning malicious data update requests. Motivated by this, in this paper, we explore the possibility and feasibility of malicious data update requests during the unlearning process. Specifically, we first propose a new class of malicious selective forgetting attacks, which involves a static scenario where all the malicious data update requests are provided by the adversary at once. Additionally, considering the sequential setting where the data update requests arrive sequentially, we also design a novel framework for sequential forgetting attacks, which is formulated as a stochastic optimal control problem. We also propose novel optimization algorithms that can find the effective malicious data update requests. We perform theoretical analyses for the proposed selective forgetting attacks, and extensive experimental results validate the effectiveness of our proposed selective forgetting attacks.},
   html      = {https://proceedings.neurips.cc/paper_files/paper/2023/hash/ed4bacc8c7ca1ee0e1d4e0ef376b7ac7-Abstract-Conference.html}
 }
@@ -179,6 +193,7 @@ html      = {https://openreview.net/forum?id=lk3j87oquF}
   year={2023},
   bibtex_show = {true},
   abbr = {Unlearning Robustness},
+  pdf = {https://dl.acm.org/doi/pdf/10.1145/3580305.3599526},
   abstract          = {Given the availability of abundant data, deep learning models have been advanced and become ubiquitous in the past decade. In practice, due to many different reasons (e.g., privacy, usability, and fidelity), individuals also want the trained deep models to forget some specific data. Motivated by this, machine unlearning (also known as selective data forgetting) has been intensively studied, which aims at removing the influence that any particular training sample had on the trained model during the unlearning process. However, people usually employ machine unlearning methods as trusted basic tools and rarely have any doubt about their reliability. In fact, the increasingly critical role of machine unlearning makes deep learning models susceptible to the risk of being maliciously attacked. To well understand the performance of deep learning models in malicious environments, we believe that it is critical to study the robustness of deep learning models to malicious unlearning attacks, which happen during the unlearning process. To bridge this gap, in this paper, we first demonstrate that malicious unlearning attacks pose immense threats to the security of deep learning systems. Specifically, we present a broad class of malicious unlearning attacks wherein maliciously crafted unlearning requests trigger deep learning models to misbehave on target samples in a highly controllable and predictable manner. In addition, to improve the robustness of deep learning models, we also present a general defense mechanism, which aims to identify and unlearn effective malicious unlearning requests based on their gradient influence on the unlearned models. Further, theoretical analyses are conducted to analyze the proposed methods. Extensive experiments on real-world datasets validate the vulnerabilities of deep learning models to malicious unlearning attacks and the effectiveness of the introduced defense mechanism.},
   html      = {https://dl.acm.org/doi/10.1145/3580305.3599526}
 }
@@ -193,6 +208,7 @@ html      = {https://openreview.net/forum?id=lk3j87oquF}
   organization={IEEE},
   bibtex_show = {true},
   abbr = {Similarity Unlearning},
+  pdf = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9995016},
   abstract          = {Patient similarity learning aims to use patient information such as electronic medical records and genetic data as input to calculate the pairwise similarity between patients, and it is becoming increasingly important in healthcare applications. However, in many cases, patient similarity learning models also need to forget some patient data. From the perspective of privacy, patients desire a tool to erase the impacts of their sensitive data from the trained patient similarity models. From the perspective of utility, if a patient similarity model’s utility is damaged by some bad patient data, the patient similarity model needs to forget such patient data to regain utility. Although some researchers have studied the problem of machine unlearning, existing methods cannot be directly applied to patient similarity learning as they fail to consider the comparative relationships among patients. In addition, they also fail to identify the optimal conditions of the local objective functions. In this paper, we fill in this gap by studying the unlearning problem in patient similarity learning. To unlearn the knowledge of a specific patient, we propose a novel erasable patient similarity learning framework, which enjoys the provable data removal guarantee and achieves high unlearning efficiency while keeping high model utility in patient similarity learning. We also conduct extensive experiments on real-world patient disease datasets to verify the desired properties of the proposed erasable framework.},
   html      = {https://ieeexplore.ieee.org/document/9995016}
 }
@@ -206,6 +222,7 @@ html      = {https://openreview.net/forum?id=lk3j87oquF}
   year={2022},
   organization={IEEE},
   bibtex_show = {true},
+  pdf = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9943421},
   abbr        = {Adaptive GSM},
   abstract          = {Wireless traffic prediction plays a crucial role in network management. However, achieving an accurate prediction for the fifth-generation (5G) network is intensely difficult because the time series data collected from 5G multi-antenna system shows rather complex patterns. To accurately capture intricate wireless traffic patterns and calibrate the prediction uncertainty, this paper resorts to the Gaussian process regression (GPR) model and proposes an adaptive kernel learning method. Specifically, we adopt a universal kernel, namely the grid spectral mixture (GSM) kernel, in the GPR model and further propose a novel trans-dimensional kernel learning algorithm by combining optimization and sampling methods to obtain the best GSM kernel configuration, boosting the prediction performance and saving the storage overhead. Experimental results demonstrate that GPR with the proposed adaptive spectral kernel learning algorithm yields superior prediction performance compared to its competitors.},
   html      = {https://ieeexplore.ieee.org/abstract/document/9943421}
