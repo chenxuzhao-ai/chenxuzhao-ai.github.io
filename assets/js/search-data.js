@@ -384,7 +384,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-one-paper-has-been-accepted-to-neurips-2023",
+            },},{id: "news-one-paper-has-been-accepted-to-kdd-2023",
+          title: 'One paper has been accepted to KDD 2023.',
+          description: "",
+          section: "News",},{id: "news-one-paper-has-been-accepted-to-neurips-2023",
           title: 'One paper has been accepted to NeurIPS 2023.',
           description: "",
           section: "News",},{id: "news-i-am-honored-to-have-received-the-neurips-2023-scholar-award",
