@@ -384,7 +384,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-am-honored-to-have-received-the-research-excellence-award-from-iowa-state-university",
+            },},{id: "news-one-paper-has-been-accepted-for-an-oral-presentation-at-aaai-2026",
+          title: 'One paper has been accepted for an oral presentation at AAAI 2026.',
+          description: "",
+          section: "News",},{id: "news-i-am-honored-to-have-received-the-research-excellence-award-from-iowa-state-university",
           title: 'I am honored to have received the Research Excellence Award from Iowa State...',
           description: "",
           section: "News",},{id: "projects-project-1",
