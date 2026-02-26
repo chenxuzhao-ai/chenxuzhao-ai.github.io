@@ -384,7 +384,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-one-paper-has-been-accepted-to-iccv-2025",
+            },},{id: "news-three-papers-have-been-accepted-to-icml-2024",
+          title: 'Three papers have been accepted to ICML 2024.',
+          description: "",
+          section: "News",},{id: "news-one-paper-has-been-accepted-to-iccv-2025",
           title: 'One paper has been accepted to ICCV 2025.',
           description: "",
           section: "News",},{id: "news-i-am-honored-to-have-received-the-2025-isu-department-of-computer-science-publication-award",
