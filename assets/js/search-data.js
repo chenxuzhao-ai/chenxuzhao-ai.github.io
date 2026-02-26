@@ -384,8 +384,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-two-papers-were-accepted-to-pakdd-2026-sparkles-smile",
-          title: 'Two papers were accepted to PAKDD 2026. :sparkles: :smile:',
+            },},{id: "news-i-am-honored-to-have-received-the-research-excellence-award-from-iowa-state-university",
+          title: 'I am honored to have received the Research Excellence Award from Iowa State...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
