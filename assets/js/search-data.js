@@ -384,7 +384,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-am-honored-to-have-received-the-neurips-2023-scholar-award",
+            },},{id: "news-one-paper-has-been-accepted-to-neurips-2023",
+          title: 'One paper has been accepted to NeurIPS 2023.',
+          description: "",
+          section: "News",},{id: "news-i-am-honored-to-have-received-the-neurips-2023-scholar-award",
           title: 'I am honored to have received the NeurIPS 2023 Scholar Award.',
           description: "",
           section: "News",},{id: "news-three-papers-have-been-accepted-to-icml-2024",
