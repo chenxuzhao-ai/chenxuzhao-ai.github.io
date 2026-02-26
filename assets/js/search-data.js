@@ -384,7 +384,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-three-papers-have-been-accepted-to-icml-2024",
+            },},{id: "news-i-am-honored-to-have-received-the-neurips-2023-scholar-award",
+          title: 'I am honored to have received the NeurIPS 2023 Scholar Award.',
+          description: "",
+          section: "News",},{id: "news-three-papers-have-been-accepted-to-icml-2024",
           title: 'Three papers have been accepted to ICML 2024.',
           description: "",
           section: "News",},{id: "news-one-paper-has-been-accepted-to-iccv-2025",
