@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 515-676-7789. cxzhao@iastate.edu.
+
 
 profile:
   align: right
@@ -11,6 +11,8 @@ profile:
   more_info: >
     <p>B10 Atanasoff Hall</p>
     <p>Ames, USA</p>
+    <p>515-676-7789</p>
+    <p>cxzhao@iastate.edu</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
