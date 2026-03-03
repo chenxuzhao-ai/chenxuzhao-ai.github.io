@@ -33,4 +33,6 @@ Hi! I am Chenxu Zhao (赵晨旭), a fourth-year Ph.D. candidate in the Departmen
 My research focuses on advancing trustworthy and human-aligned AI to ensure reliability and privacy in real-world deployments. I study attack/defense mechanisms, adversarial robustness, machine unlearning, and uncertainty quantification. Recently, I have extended these themes to LLM agents, examining the safety risks and trustworthiness of models operating within autonomous workflows. I am also dedicated to developing benchmarks to facilitate progress and standardization in these research areas.
 
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=CQ_Yhku5LbSIH4GZ6XsOBIN6MNirAcnoob5TjA2MEz4&cl=ffffff&w=a"></script>
+<div style="width:300px; margin: 20px auto;">
+  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=CQ_Yhku5LbSIH4GZ6XsOBIN6MNirAcnoob5TjA2MEz4&cl=ffffff&w=a"></script>
+</div>
