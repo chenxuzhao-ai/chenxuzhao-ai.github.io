@@ -34,5 +34,5 @@ My research focuses on advancing trustworthy and human-aligned AI to ensure reli
 
 
 <div style="width:300px; margin: 20px auto;">
-  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=CQ_Yhku5LbSIH4GZ6XsOBIN6MNirAcnoob5TjA2MEz4&cl=ffffff&w=a"></script>
+  <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=CQ_Yhku5LbSIH4GZ6XsOBIN6MNirAcnoob5TjA2MEz4&co=c9e5f9&ct=78a000'></script>
 </div>
