@@ -31,8 +31,3 @@ latest_posts:
 Hi! I am Chenxu Zhao (赵晨旭), a fourth-year Ph.D. candidate in the Department of Computer Science at [Iowa State University](https://www.iastate.edu/), advised by [Dr. Mengdi Huai](https://mdhuai.github.io/). I received my bachelor’s degree in Statistics from the School of Data Science at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), in 2022.
 
 My research focuses on advancing trustworthy and human-aligned AI to ensure reliability and privacy in real-world deployments. I study attack/defense mechanisms, adversarial robustness, machine unlearning, and uncertainty quantification. Recently, I have extended these themes to LLM agents, examining the safety risks and trustworthiness of models operating within autonomous workflows. I am also dedicated to developing benchmarks to facilitate progress and standardization in these research areas.
-
-
-<div style="width:300px; margin: 20px auto;">
-  <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=CQ_Yhku5LbSIH4GZ6XsOBIN6MNirAcnoob5TjA2MEz4&co=c9e5f9&ct=78a000'></script>
-</div>
