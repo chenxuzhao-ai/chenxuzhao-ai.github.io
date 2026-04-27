@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-20'
+  last_updated: '2026-04-27'
 papers:
   6J8ln3QAAAAJ:B3FOqHPlNUQC:
-    citations: 16
+    citations: 18
     title: A survey of security and privacy issues of machine unlearning
     year: '2025'
   6J8ln3QAAAAJ:Mojj43d5GZwC:
@@ -38,7 +38,7 @@ papers:
     title: Exploring fairness in educational data mining in the context of the right to be forgotten
     year: '2024'
   6J8ln3QAAAAJ:blknAaTinKkC:
-    citations: 10
+    citations: 13
     title: Bridging model heterogeneity in federated learning via uncertainty-based asymmetrical reciprocity learning
     year: '2024'
   6J8ln3QAAAAJ:d1gkVwhDpl0C:
@@ -58,7 +58,7 @@ papers:
     title: Data Poisoning Attacks against Conformal Prediction
     year: '2024'
   6J8ln3QAAAAJ:qjMakFHDy7sC:
-    citations: 37
+    citations: 39
     title: Static and sequential malicious attacks in the context of selective forgetting
     year: '2023'
   6J8ln3QAAAAJ:u-x6o8ySG0sC:
