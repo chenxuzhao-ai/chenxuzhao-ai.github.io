@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-12'
+  last_updated: '2026-06-24'
 papers:
   6J8ln3QAAAAJ:1yQoGdGgb4wC:
     citations: 0
@@ -42,11 +42,11 @@ papers:
     title: Exploring fairness in educational data mining in the context of the right to be forgotten
     year: '2024'
   6J8ln3QAAAAJ:blknAaTinKkC:
-    citations: 17
+    citations: 18
     title: Bridging model heterogeneity in federated learning via uncertainty-based asymmetrical reciprocity learning
     year: '2024'
   6J8ln3QAAAAJ:d1gkVwhDpl0C:
-    citations: 49
+    citations: 50
     title: Towards understanding and enhancing robustness of deep learning models against malicious unlearning attacks
     year: '2023'
   6J8ln3QAAAAJ:kRWSkSYxWN8C:
