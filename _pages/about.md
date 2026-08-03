@@ -32,6 +32,13 @@ Hi! I am Chenxu Zhao (赵晨旭), a fourth-year Ph.D. candidate in the Departmen
 
 My research focuses on two main areas: AI agents and trustworthy AI.
 
-**AI Agents.** I study how to evaluate and improve _complex, long-horizon agents_, particularly those involving intricate interactions, multi-tool use, knowledge-base queries, and extended reasoning traces. These settings are especially challenging when labeled data are scarce or when the behavior of an ideal oracle agent is difficult to define. My goal is to develop _principled evaluation frameworks_ that better characterize agent capabilities, limitations, and failure modes, while laying the foundation for agent _self-improvement and continual evolution_.
+**AI Agents**
 
-**Trustworthy AI.** My research aims to advance trustworthy and human-aligned AI by improving the reliability, safety, and privacy of large language models and AI agents. I study attack and defense mechanisms, adversarial robustness, machine unlearning, and uncertainty quantification. I am also dedicated to developing rigorous benchmarks that promote progress, reproducibility, and standardization across these areas.
+- **Agent Evaluation (Evals).** I study how to evaluate _complex, long-horizon agents_, particularly those involving intricate interactions, repeated tool use, knowledge-base queries, specialized skills, and extended reasoning traces. These settings are especially challenging when labeled evaluation data are scarce or when the behavior of an ideal oracle agent is difficult to define. My goal is to develop principled evaluation frameworks that _produce grounded, robust, targeted, and fine-grained feedback_ on agent capabilities, limitations, and failure modes.
+
+- **Agent Recursive Self-Improvement (RSI).** Building on these evaluation frameworks, I investigate how rich and reliable feedback signals can _support recursive self-improvement in AI agents._ In particular, I am interested in designing closed-loop _autonomous workflows_ that can identify weaknesses, adapt their strategies, acquire or refine capabilities, improve the underlying agent system, and evolve over time while reducing reliance on human-in-the-loop supervision.
+
+
+**Trustworthy AI.** 
+
+My research aims to advance trustworthy and human-aligned AI by improving the reliability, safety, and privacy of large language models and AI agents. I study attack and defense mechanisms, adversarial robustness, machine unlearning, and uncertainty quantification. I am also dedicated to developing rigorous benchmarks that promote progress, reproducibility, and standardization across these areas.
