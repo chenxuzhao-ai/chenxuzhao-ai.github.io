@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am Chenxu Zhao (赵晨旭), a fourth-year Ph.D. candidate in the Department of Computer Science at [Iowa State University](https://www.iastate.edu/), advised by [Dr. Mengdi Huai](https://mdhuai.github.io/). I received my bachelor’s degree in Statistics from the School of Data Science at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), in 2022. I have also worked as an Applied Scientist Intern at Amazon.
+Hi! I am Chenxu Zhao (赵晨旭), a fourth-year Ph.D. candidate in the Department of Computer Science at [Iowa State University](https://www.iastate.edu/). I am currently working as an Applied Scientist Intern at [Amazon](https://www.aboutamazon.com/about-us). I received my bachelor’s degree in Statistics from the School of Data Science at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en) in 2022.
 
 My research focuses on two main areas: AI agents and trustworthy AI.
 
