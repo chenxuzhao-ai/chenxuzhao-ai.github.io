@@ -41,6 +41,6 @@ My research focuses on two main areas: AI agents and trustworthy AI.
 
 **Trustworthy AI**
 
-- **Safe and Privacy-Preserving AI.** My research aims to improve the safety and privacy of large language models and AI agents. I study attack and defense mechanisms, red teaming, adversarial robustness, and machine unlearning. I am also dedicated to developing rigorous benchmarks that enable systematic evaluation and promote progress, reproducibility, and standardization across these areas.
+- **Safe and Privacy-Preserving AI.** My research aims to improve the _safety and privacy_ of large language models and AI agents. I study attack and defense mechanisms, red teaming, adversarial robustness, and machine unlearning. I am also dedicated to developing rigorous benchmarks that enable systematic evaluation and promote progress, reproducibility, and standardization across these areas.
 
-- **Explainable AI (XAI).** I study uncertainty quantification for large language models and AI agents, with a particular focus on conformal inference. My goal is to develop principled methods that provide reliable and interpretable uncertainty estimates, enabling users to better understand model confidence, identify potential failures, and make informed decisions when deploying AI systems.
+- **Explainable AI (XAI).** I study _uncertainty quantification_ for large language models and AI agents, with a particular focus on conformal inference. My goal is to develop principled methods that provide reliable and interpretable uncertainty estimates, enabling users to better understand model confidence, identify potential failures, and make informed decisions when deploying AI systems.
