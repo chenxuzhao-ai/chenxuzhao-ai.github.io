@@ -9,6 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Bellevue, USA</p>
     <p>515-676-7789</p>
     <p>cxzhao@iastate.edu</p>
 
