@@ -39,6 +39,8 @@ My research focuses on two main areas: AI agents and trustworthy AI.
 - **Agent Recursive Self-Improvement (RSI).** Building on these evaluation frameworks, I investigate how rich and reliable feedback signals can _support recursive self-improvement in AI agents._ In particular, I am interested in designing closed-loop _autonomous workflows_ that can identify weaknesses, adapt their strategies, acquire or refine capabilities, improve the underlying agent system, and evolve over time while reducing reliance on human-in-the-loop supervision.
 
 
-**Trustworthy AI.** 
+**Trustworthy AI**
 
-My research aims to advance trustworthy and human-aligned AI by improving the reliability, safety, and privacy of large language models and AI agents. I study attack and defense mechanisms, adversarial robustness, machine unlearning, and uncertainty quantification. I am also dedicated to developing rigorous benchmarks that promote progress, reproducibility, and standardization across these areas.
+- **Safe and Privacy-Preserving AI.** My research aims to improve the safety and privacy of large language models and AI agents. I study attack and defense mechanisms, red teaming, adversarial robustness, and machine unlearning. I am also dedicated to developing rigorous benchmarks that enable systematic evaluation and promote progress, reproducibility, and standardization across these areas.
+
+- **Explainable AI (XAI).** I study uncertainty quantification for large language models and AI agents, with a particular focus on conformal inference. My goal is to develop principled methods that provide reliable and interpretable uncertainty estimates, enabling users to better understand model confidence, identify potential failures, and make informed decisions when deploying AI systems.
